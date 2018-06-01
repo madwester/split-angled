@@ -1,0 +1,61 @@
+@import 'variables';
+@import 'mixins';
+
+html, body {
+    height: 100%;
+}
+body {
+    background-color: $brandOrange;
+    color: white;
+    @include reset();
+}
+body::before {
+    background-color: $white;
+    width: 10%;
+    content: " ";
+    position: fixed;
+    height: 100%;
+    top: 0;
+}
+.nav {
+    transform: skewX(5deg);
+}
+.navList {
+    li {
+
+    }
+    a {
+        color: $brandBlue;
+        font-family: $oswald;
+        font-size: 1.5em;
+        text-transform: uppercase;
+        text-decoration: none;
+        line-height: 2;
+    }
+}
+#header {
+    background-color: $white;
+    width: 10%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 10%;
+    margin: 0; 
+    transform: skewX(-5deg);
+}
+.content {
+    width: 30%;
+    top: 140px;
+    right: 500px;
+    position: fixed;
+    h2 {
+        text-transform: uppercase;
+        font-family: $oswald; 
+    }
+    p {
+        font-family: Helvetica, sans-serif;
+        font-size: 1.1em;
+        word-spacing: 3;
+    }
+}

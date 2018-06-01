@@ -1,0 +1,52 @@
+@import url("https://fonts.googleapis.com/css?family=Caveat+Brush|Oswald|Nanum+Pen+Script|Rancho|Roboto|Roboto+Mono:400,500|Roboto+Condensed|Covered+By+Your+Grace|Lato|Reenie+Beanie|Abril+Fatface|Allura|Pacifico|Sacramento|Montserrat|Raleway|Monoton");
+html, body {
+  height: 100%; }
+
+body {
+  background-color: #F1A763;
+  color: white;
+  padding: 0;
+  margin: 0; }
+
+body::before {
+  background-color: #fff;
+  width: 10%;
+  content: " ";
+  position: fixed;
+  height: 100%;
+  top: 0; }
+
+.nav {
+  transform: skewX(5deg); }
+
+.navList a {
+  color: #3E95F7;
+  font-family: "Oswald", sans-serif;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  text-decoration: none;
+  line-height: 2; }
+
+#header {
+  background-color: #fff;
+  width: 10%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  padding: 10%;
+  margin: 0;
+  transform: skewX(-5deg); }
+
+.content {
+  width: 30%;
+  top: 140px;
+  right: 500px;
+  position: fixed; }
+  .content h2 {
+    text-transform: uppercase;
+    font-family: "Oswald", sans-serif; }
+  .content p {
+    font-family: Helvetica, sans-serif;
+    font-size: 1.1em;
+    word-spacing: 3; }
